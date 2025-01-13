@@ -23,7 +23,7 @@ function createWindow() {
   win = new BrowserWindow({
     resizable: false,
     width: 1024,
-    height: 768,
+    height: 600,
     center: true,
     autoHideMenuBar: true,
     icon: path.join(process.env.PUBLIC, "electron-vite.svg"),
