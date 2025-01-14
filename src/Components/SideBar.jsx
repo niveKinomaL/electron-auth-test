@@ -42,22 +42,24 @@ const SideBar = ({ setSelectedMenu, menuSelected }) => {
             }`}
           >
             <FaUserFriends size={15} className="mt-0.5" />
-            <p className="text-xs font-bold">Clients</p>
+            <p className="text-xs font-bold">Clientes</p>
           </div>
         </div>
       </div>
       {/* Bottom Section */}
       <div className="w-full mb-4 flex-col gap-1 flex items-center justify-start">
         <div className="flex items-start w-full">
-          <p className="font-bold text-[9px] opacity-30 ml-6 mt-4">SETTINGS</p>
+          <p className="font-bold text-[9px] opacity-30 ml-6 mt-4">
+            Configurações
+          </p>
         </div>
         <div className="w-11/12 cursor-pointer transition-all duration-300 hover:opacity-100 opacity-50 px-3 flex gap-2 items-center justify-start h-fit py-2 rounded-[3px] text-[#5E54C9] hover:text-white hover:bg-[#5E54C9]">
           <IoIosSettings size={15} className="mt-0.5" />
-          <p className="text-xs font-bold">Setting</p>
+          <p className="text-xs font-bold">Ajustes</p>
         </div>
         <div className="w-11/12 cursor-pointer transition-all duration-300 hover:opacity-100 opacity-50 px-3 flex gap-2 items-center justify-start h-fit py-2 rounded-[3px] text-red-500 hover:text-white hover:bg-red-500">
           <MdExitToApp size={15} className="mt-0.5" />
-          <p className="text-xs font-bold">Logout</p>
+          <p className="text-xs font-bold">Sair</p>
         </div>
       </div>
     </div>
